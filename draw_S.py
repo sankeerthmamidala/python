@@ -1,0 +1,16 @@
+from turtle import *
+pen1 = Pen()
+pen2 = Pen()
+pen1.screen.bgcolor('#3ec732')
+pen1.goto(0,300)
+pen1.goto(150,150)
+pen1.goto(300,300)
+pen1.goto(300,0)
+pen.up()
+pen.goto(350,0)
+pen.down()
+for i in range(0,250):
+    pen2.backward(3)
+    pen2.right(1)
+    pen1.fd(3)
+    pen1.right(1)
